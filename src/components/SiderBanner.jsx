@@ -114,11 +114,11 @@ const SliderBanner = () => {
                 {banner.description}
               </Typography>
               <Button
-                variant="contained"
+                variant=""
                 color="secondary"
-                sx={{ mt: 2, padding: '10px 20px' }}
+                sx={{ mt: 2, color: '#ab7442', backgroundColor:"#fff"}}
               >
-                Learn More
+                Read More
               </Button>
             </Box>
           </Box>

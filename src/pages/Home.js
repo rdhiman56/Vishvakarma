@@ -6,12 +6,12 @@ import SliderBanner from '../components/SiderBanner';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <SliderBanner />
       <Services />
       <AboutUs />
       <ContactForm />
-    </div>
+    </>
   );
 };
 

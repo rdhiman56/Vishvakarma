@@ -31,7 +31,7 @@ const cards = [
 
 const Services = () => {
   return (
-    <Grid container spacing={4} sx={{ py: 5  }}>
+    <Grid container spacing={4} sx={{ py: 4  }}>
       {cards.map((card, index) => (
         <Grid size={{ xs: 12, md: 3, sm:6 }} key={index}>
           <Card sx={{ maxWidth: 345, margin: "auto" }}>
@@ -49,12 +49,11 @@ const Services = () => {
                 {card.description}
               </Typography>
               <Button
-                variant="contained"
-                color="primary"
+                variant=""
                 href={card.link}
-                sx={{ mt: 2 }}
+                sx={{ mt: 2, color: '#fff', border:"1px solid #ab7442", backgroundColor:"#ab7442"}}
               >
-                Learn More
+                Read More
               </Button>
             </CardContent>
           </Card>
